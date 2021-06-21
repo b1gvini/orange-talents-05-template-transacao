@@ -26,5 +26,17 @@ public class Estabelecimento {
 		this.cidade = cidade;
 		this.endereco = endereco;
 	}
-	
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getCidade() {
+		return cidade;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
 }
